@@ -1,0 +1,1045 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		05ED5B55D8AAD30623AEB9B36430D576 /* KYEmbedMainControllerSegue.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDB92162F2CF4E1A4B01D050B9E76444 /* KYEmbedMainControllerSegue.swift */; };
+		068CE93600DFC3FCCDF252C8E1043593 /* Colours-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E98418922E4667754B924CB8F67BB0C7 /* Colours-dummy.m */; };
+		268BFF295FE08AD95216C18A01C08B86 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		4311B2910E702DB68FB9E13E1393FCFD /* Pods-NotiUPIICSAUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 30C8A3A5232819EEDB1ED006D68E1596 /* Pods-NotiUPIICSAUITests-dummy.m */; };
+		497BAEED81F1B3F4C2335BBCD2FDF434 /* Pods-NotiUPIICSA-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F069D2FE3A20F32AC5D89042910869A3 /* Pods-NotiUPIICSA-dummy.m */; };
+		5FC40F18DBFFCACF3FA032B58571B781 /* KYDrawerController-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0FE26910A9F56B9149B7D33695C3CE4D /* KYDrawerController-dummy.m */; };
+		62B449845871F8DA880D40BE4935EC56 /* KYDrawerController-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A7E283EF71DB75F8D45B9140DAF6397F /* KYDrawerController-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		67F8801C49F00B5497DC3FC7E8A6AA5A /* Pods-NotiUPIICSAUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 836760F2EEBDB3D084AA49247016A1EB /* Pods-NotiUPIICSAUITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6AD875BCD993EB7CD3FB369B273FEE4B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		74EBEC8F9277C0056FF08F806E75EB4F /* KYDrawerController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FACC0E5819A1FEF0EFC093AD868C90B9 /* KYDrawerController.swift */; };
+		7578D046FBB5216C9109E9FAF6CDA266 /* Colours-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 8D17999E4F5C4D8CCAE4DB7D4CCA51F4 /* Colours-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		893F1ED31544FF86D390717B398C23DD /* Pods-NotiUPIICSA-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = FE17CC848A589EA6784888CB28061106 /* Pods-NotiUPIICSA-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		89E697712814646784F59DDF96EFEB6E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		900D49F13DD20C413147CE312844C62B /* Colours.m in Sources */ = {isa = PBXBuildFile; fileRef = 05BBA682D839B0F89AF2492871BF96E9 /* Colours.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		9DC71E16F71DAD20740061873F9EAD9F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		ADAEFEC0090FB5B2C4C61234879AF1E5 /* Colours.h in Headers */ = {isa = PBXBuildFile; fileRef = 83D2F19AC00BE2929439415BC5093290 /* Colours.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B8A456A7837A2DCBD746FDB30AEB2529 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		E9833FF7F6CD3033579AC0DF48D0159F /* Pods-NotiUPIICSATests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D5EAD706D2EA352C9C5CAE3E7D171481 /* Pods-NotiUPIICSATests-dummy.m */; };
+		F0244963F489DD57BD18CB7E1525B895 /* Pods-NotiUPIICSATests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 54B1EBDF78F79AFFD2B1C53AE5416486 /* Pods-NotiUPIICSATests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FE020C0F86B9EBDE87399EC0136682FE /* KYEmbedDrawerControllerSegue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FE9965662FF66DB53F27BEBFB87783F /* KYEmbedDrawerControllerSegue.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5AC0B1D45EE52430523C2CAB65770D6F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CFD50968990BC3BDFBD7326EEA9B3CA1;
+			remoteInfo = Colours;
+		};
+		CB0DD435F90ACE0F6A32D2C00826CFB1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7AF8670FDECF80EFCAA3D04318C4B4D1;
+			remoteInfo = KYDrawerController;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		05BBA682D839B0F89AF2492871BF96E9 /* Colours.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = Colours.m; sourceTree = "<group>"; };
+		09FB4BF1A8E0E5AFDA3F3033520215B8 /* Pods-NotiUPIICSAUITests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-NotiUPIICSAUITests-frameworks.sh"; sourceTree = "<group>"; };
+		0A13062FF0AA17D324ED1EF6C1AFAD11 /* Pods-NotiUPIICSATests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-NotiUPIICSATests-frameworks.sh"; sourceTree = "<group>"; };
+		0FE26910A9F56B9149B7D33695C3CE4D /* KYDrawerController-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "KYDrawerController-dummy.m"; sourceTree = "<group>"; };
+		13B519257C0F96D5154F12D2FB2CCA7B /* Pods_NotiUPIICSAUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_NotiUPIICSAUITests.framework; path = "Pods-NotiUPIICSAUITests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1A80A2D30DB5E4E05DAF1FE5D44B8783 /* Pods-NotiUPIICSA-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-NotiUPIICSA-frameworks.sh"; sourceTree = "<group>"; };
+		1C128D18035489C71148CDFF5BE53BCC /* Pods_NotiUPIICSA.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_NotiUPIICSA.framework; path = "Pods-NotiUPIICSA.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		23C5B433CFBD7FD4B56D13C0CCA1937B /* Pods-NotiUPIICSAUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-NotiUPIICSAUITests-acknowledgements.plist"; sourceTree = "<group>"; };
+		302816BA0B197932C46939BB814BCF5D /* KYDrawerController.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = KYDrawerController.framework; path = KYDrawerController.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		30C8A3A5232819EEDB1ED006D68E1596 /* Pods-NotiUPIICSAUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-NotiUPIICSAUITests-dummy.m"; sourceTree = "<group>"; };
+		314502E19983C90F7753E467736E1829 /* Colours.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Colours.framework; path = Colours.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3E9F76CE5D7FC9000ED7B4772000B397 /* Pods-NotiUPIICSAUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-NotiUPIICSAUITests.release.xcconfig"; sourceTree = "<group>"; };
+		54B1EBDF78F79AFFD2B1C53AE5416486 /* Pods-NotiUPIICSATests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-NotiUPIICSATests-umbrella.h"; sourceTree = "<group>"; };
+		5D78C373D6113C51B760982C4E59E2BA /* Pods-NotiUPIICSA.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-NotiUPIICSA.modulemap"; sourceTree = "<group>"; };
+		5FE6BC00995315AE87A41E4552205335 /* Pods-NotiUPIICSATests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-NotiUPIICSATests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		658AD2A2881CB1532F19F0F334C4FCBF /* KYDrawerController.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = KYDrawerController.modulemap; sourceTree = "<group>"; };
+		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		6FE9965662FF66DB53F27BEBFB87783F /* KYEmbedDrawerControllerSegue.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = KYEmbedDrawerControllerSegue.swift; path = KYDrawerController/Classes/KYEmbedDrawerControllerSegue.swift; sourceTree = "<group>"; };
+		732FA33C28756C17056227EA5F0B41D0 /* Pods-NotiUPIICSATests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-NotiUPIICSATests.debug.xcconfig"; sourceTree = "<group>"; };
+		7884CDAFDF5F75E15D8DB5A6652D2F62 /* Pods-NotiUPIICSATests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-NotiUPIICSATests.release.xcconfig"; sourceTree = "<group>"; };
+		836760F2EEBDB3D084AA49247016A1EB /* Pods-NotiUPIICSAUITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-NotiUPIICSAUITests-umbrella.h"; sourceTree = "<group>"; };
+		83D2F19AC00BE2929439415BC5093290 /* Colours.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = Colours.h; sourceTree = "<group>"; };
+		875320A49440131CBCA244D6D77F2989 /* Pods-NotiUPIICSAUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-NotiUPIICSAUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		8D17999E4F5C4D8CCAE4DB7D4CCA51F4 /* Colours-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Colours-umbrella.h"; sourceTree = "<group>"; };
+		90B42B5A61C873CC3351667C315A4A75 /* Colours.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Colours.xcconfig; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9D9F966CC0FCC15648084124AD68BB5B /* Colours.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = Colours.modulemap; sourceTree = "<group>"; };
+		9E321DB487D6F03915EF48D1FEA61A6A /* Pods_NotiUPIICSATests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_NotiUPIICSATests.framework; path = "Pods-NotiUPIICSATests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9EB824C1ECDA0ACAF753A9117737AEC9 /* Colours-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Colours-prefix.pch"; sourceTree = "<group>"; };
+		A7E283EF71DB75F8D45B9140DAF6397F /* KYDrawerController-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "KYDrawerController-umbrella.h"; sourceTree = "<group>"; };
+		AB067A5F1A36EE8D9D181855E57FF3F5 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AB7BB261EE7D3458C433392307E08DD3 /* Pods-NotiUPIICSA-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-NotiUPIICSA-resources.sh"; sourceTree = "<group>"; };
+		B06B4D0A281D83D32BFDE08C3425B5FD /* Pods-NotiUPIICSA.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-NotiUPIICSA.debug.xcconfig"; sourceTree = "<group>"; };
+		B8359CD1078597BA6C68F52B70642731 /* Pods-NotiUPIICSATests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-NotiUPIICSATests-acknowledgements.plist"; sourceTree = "<group>"; };
+		B934D951F63FBBFA6AA6CC9EE61BF089 /* Pods-NotiUPIICSAUITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-NotiUPIICSAUITests.modulemap"; sourceTree = "<group>"; };
+		BDB92162F2CF4E1A4B01D050B9E76444 /* KYEmbedMainControllerSegue.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = KYEmbedMainControllerSegue.swift; path = KYDrawerController/Classes/KYEmbedMainControllerSegue.swift; sourceTree = "<group>"; };
+		BE7BA288F274435657F5F940B1BBA169 /* Pods-NotiUPIICSATests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-NotiUPIICSATests-resources.sh"; sourceTree = "<group>"; };
+		BF9C15786248B2B6B317A00357FCEABD /* Pods-NotiUPIICSA.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-NotiUPIICSA.release.xcconfig"; sourceTree = "<group>"; };
+		C05EC1EB97C84135EDB9ECE8735F0006 /* Pods-NotiUPIICSA-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-NotiUPIICSA-acknowledgements.markdown"; sourceTree = "<group>"; };
+		C88B4CE3E15B07DEA512BA3629D33DD7 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CDBD328676A67A05D0A432BB47577DF6 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CF2FF6FE89F45089D11DFB839CE361DA /* Pods-NotiUPIICSAUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-NotiUPIICSAUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		D27627F0A8B05305E82705748D0BF56F /* Pods-NotiUPIICSATests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-NotiUPIICSATests.modulemap"; sourceTree = "<group>"; };
+		D3E5DD1D24C2046E2C01CC915B59B074 /* KYDrawerController-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "KYDrawerController-prefix.pch"; sourceTree = "<group>"; };
+		D5EAD706D2EA352C9C5CAE3E7D171481 /* Pods-NotiUPIICSATests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-NotiUPIICSATests-dummy.m"; sourceTree = "<group>"; };
+		D7F7745DF4E94DC43850DAC4E9577DAA /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D90728448C77C6810923BD45B9D160BF /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E2E1837E02ACB42D6C32CD7F4F7CDD87 /* KYDrawerController.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = KYDrawerController.xcconfig; sourceTree = "<group>"; };
+		E98418922E4667754B924CB8F67BB0C7 /* Colours-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Colours-dummy.m"; sourceTree = "<group>"; };
+		EABE7649C343270385C301E02C850B73 /* Pods-NotiUPIICSAUITests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-NotiUPIICSAUITests-resources.sh"; sourceTree = "<group>"; };
+		F069D2FE3A20F32AC5D89042910869A3 /* Pods-NotiUPIICSA-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-NotiUPIICSA-dummy.m"; sourceTree = "<group>"; };
+		F55E316D3169400636FF74DDB1732493 /* Pods-NotiUPIICSA-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-NotiUPIICSA-acknowledgements.plist"; sourceTree = "<group>"; };
+		FACC0E5819A1FEF0EFC093AD868C90B9 /* KYDrawerController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = KYDrawerController.swift; path = KYDrawerController/Classes/KYDrawerController.swift; sourceTree = "<group>"; };
+		FE17CC848A589EA6784888CB28061106 /* Pods-NotiUPIICSA-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-NotiUPIICSA-umbrella.h"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		087E8FD9312E4A8308DE15D74246256A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B8A456A7837A2DCBD746FDB30AEB2529 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18522288C38F77972963048E913D7BB1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9DC71E16F71DAD20740061873F9EAD9F /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4668773A3D0979A244F54778BB01A6ED /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				268BFF295FE08AD95216C18A01C08B86 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6E29ADF9CBB481BF8171B19DD0A72126 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				89E697712814646784F59DDF96EFEB6E /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9FB1EF2F8A9886B7F0713F557C0356DF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6AD875BCD993EB7CD3FB369B273FEE4B /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0017AFE67D56BA1E4AF5F7CEDE4F9D6C /* Pods-NotiUPIICSATests */ = {
+			isa = PBXGroup;
+			children = (
+				C88B4CE3E15B07DEA512BA3629D33DD7 /* Info.plist */,
+				D27627F0A8B05305E82705748D0BF56F /* Pods-NotiUPIICSATests.modulemap */,
+				5FE6BC00995315AE87A41E4552205335 /* Pods-NotiUPIICSATests-acknowledgements.markdown */,
+				B8359CD1078597BA6C68F52B70642731 /* Pods-NotiUPIICSATests-acknowledgements.plist */,
+				D5EAD706D2EA352C9C5CAE3E7D171481 /* Pods-NotiUPIICSATests-dummy.m */,
+				0A13062FF0AA17D324ED1EF6C1AFAD11 /* Pods-NotiUPIICSATests-frameworks.sh */,
+				BE7BA288F274435657F5F940B1BBA169 /* Pods-NotiUPIICSATests-resources.sh */,
+				54B1EBDF78F79AFFD2B1C53AE5416486 /* Pods-NotiUPIICSATests-umbrella.h */,
+				732FA33C28756C17056227EA5F0B41D0 /* Pods-NotiUPIICSATests.debug.xcconfig */,
+				7884CDAFDF5F75E15D8DB5A6652D2F62 /* Pods-NotiUPIICSATests.release.xcconfig */,
+			);
+			name = "Pods-NotiUPIICSATests";
+			path = "Target Support Files/Pods-NotiUPIICSATests";
+			sourceTree = "<group>";
+		};
+		14DC67BBF74D10CE5C34119D43EA042D /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				FD3644B4FE3F5E1DE964E088E9C43BDB /* Pods-NotiUPIICSA */,
+				0017AFE67D56BA1E4AF5F7CEDE4F9D6C /* Pods-NotiUPIICSATests */,
+				7577F54CC938B1EF40021D3ECCE0103E /* Pods-NotiUPIICSAUITests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		2736F35EFFECAB93B412D5E8410C8497 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				AB067A5F1A36EE8D9D181855E57FF3F5 /* Info.plist */,
+				658AD2A2881CB1532F19F0F334C4FCBF /* KYDrawerController.modulemap */,
+				E2E1837E02ACB42D6C32CD7F4F7CDD87 /* KYDrawerController.xcconfig */,
+				0FE26910A9F56B9149B7D33695C3CE4D /* KYDrawerController-dummy.m */,
+				D3E5DD1D24C2046E2C01CC915B59B074 /* KYDrawerController-prefix.pch */,
+				A7E283EF71DB75F8D45B9140DAF6397F /* KYDrawerController-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/KYDrawerController";
+			sourceTree = "<group>";
+		};
+		4A7122EE085A02D76462F4863E1EA74F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				8342F2073EB5F4F0536D9D6173850F7E /* Colours */,
+				D4D4EB2FF59338E2D11BF3D7416FC322 /* KYDrawerController */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		7577F54CC938B1EF40021D3ECCE0103E /* Pods-NotiUPIICSAUITests */ = {
+			isa = PBXGroup;
+			children = (
+				CDBD328676A67A05D0A432BB47577DF6 /* Info.plist */,
+				B934D951F63FBBFA6AA6CC9EE61BF089 /* Pods-NotiUPIICSAUITests.modulemap */,
+				875320A49440131CBCA244D6D77F2989 /* Pods-NotiUPIICSAUITests-acknowledgements.markdown */,
+				23C5B433CFBD7FD4B56D13C0CCA1937B /* Pods-NotiUPIICSAUITests-acknowledgements.plist */,
+				30C8A3A5232819EEDB1ED006D68E1596 /* Pods-NotiUPIICSAUITests-dummy.m */,
+				09FB4BF1A8E0E5AFDA3F3033520215B8 /* Pods-NotiUPIICSAUITests-frameworks.sh */,
+				EABE7649C343270385C301E02C850B73 /* Pods-NotiUPIICSAUITests-resources.sh */,
+				836760F2EEBDB3D084AA49247016A1EB /* Pods-NotiUPIICSAUITests-umbrella.h */,
+				CF2FF6FE89F45089D11DFB839CE361DA /* Pods-NotiUPIICSAUITests.debug.xcconfig */,
+				3E9F76CE5D7FC9000ED7B4772000B397 /* Pods-NotiUPIICSAUITests.release.xcconfig */,
+			);
+			name = "Pods-NotiUPIICSAUITests";
+			path = "Target Support Files/Pods-NotiUPIICSAUITests";
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				4A7122EE085A02D76462F4863E1EA74F /* Pods */,
+				9B9A308337604AC24517468245353C43 /* Products */,
+				14DC67BBF74D10CE5C34119D43EA042D /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		8342F2073EB5F4F0536D9D6173850F7E /* Colours */ = {
+			isa = PBXGroup;
+			children = (
+				8C301FC3D9F3CA0C5CAB44C242340A14 /* ObjC */,
+				FD6055E7E0C948D7FB616CB51618DF5A /* Support Files */,
+			);
+			name = Colours;
+			path = Colours;
+			sourceTree = "<group>";
+		};
+		8C301FC3D9F3CA0C5CAB44C242340A14 /* ObjC */ = {
+			isa = PBXGroup;
+			children = (
+				83D2F19AC00BE2929439415BC5093290 /* Colours.h */,
+				05BBA682D839B0F89AF2492871BF96E9 /* Colours.m */,
+			);
+			name = ObjC;
+			sourceTree = "<group>";
+		};
+		9B9A308337604AC24517468245353C43 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				314502E19983C90F7753E467736E1829 /* Colours.framework */,
+				302816BA0B197932C46939BB814BCF5D /* KYDrawerController.framework */,
+				1C128D18035489C71148CDFF5BE53BCC /* Pods_NotiUPIICSA.framework */,
+				9E321DB487D6F03915EF48D1FEA61A6A /* Pods_NotiUPIICSATests.framework */,
+				13B519257C0F96D5154F12D2FB2CCA7B /* Pods_NotiUPIICSAUITests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D35AF013A5F0BAD4F32504907A52519E /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D35AF013A5F0BAD4F32504907A52519E /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		D4D4EB2FF59338E2D11BF3D7416FC322 /* KYDrawerController */ = {
+			isa = PBXGroup;
+			children = (
+				FACC0E5819A1FEF0EFC093AD868C90B9 /* KYDrawerController.swift */,
+				6FE9965662FF66DB53F27BEBFB87783F /* KYEmbedDrawerControllerSegue.swift */,
+				BDB92162F2CF4E1A4B01D050B9E76444 /* KYEmbedMainControllerSegue.swift */,
+				2736F35EFFECAB93B412D5E8410C8497 /* Support Files */,
+			);
+			name = KYDrawerController;
+			path = KYDrawerController;
+			sourceTree = "<group>";
+		};
+		FD3644B4FE3F5E1DE964E088E9C43BDB /* Pods-NotiUPIICSA */ = {
+			isa = PBXGroup;
+			children = (
+				D90728448C77C6810923BD45B9D160BF /* Info.plist */,
+				5D78C373D6113C51B760982C4E59E2BA /* Pods-NotiUPIICSA.modulemap */,
+				C05EC1EB97C84135EDB9ECE8735F0006 /* Pods-NotiUPIICSA-acknowledgements.markdown */,
+				F55E316D3169400636FF74DDB1732493 /* Pods-NotiUPIICSA-acknowledgements.plist */,
+				F069D2FE3A20F32AC5D89042910869A3 /* Pods-NotiUPIICSA-dummy.m */,
+				1A80A2D30DB5E4E05DAF1FE5D44B8783 /* Pods-NotiUPIICSA-frameworks.sh */,
+				AB7BB261EE7D3458C433392307E08DD3 /* Pods-NotiUPIICSA-resources.sh */,
+				FE17CC848A589EA6784888CB28061106 /* Pods-NotiUPIICSA-umbrella.h */,
+				B06B4D0A281D83D32BFDE08C3425B5FD /* Pods-NotiUPIICSA.debug.xcconfig */,
+				BF9C15786248B2B6B317A00357FCEABD /* Pods-NotiUPIICSA.release.xcconfig */,
+			);
+			name = "Pods-NotiUPIICSA";
+			path = "Target Support Files/Pods-NotiUPIICSA";
+			sourceTree = "<group>";
+		};
+		FD6055E7E0C948D7FB616CB51618DF5A /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				9D9F966CC0FCC15648084124AD68BB5B /* Colours.modulemap */,
+				90B42B5A61C873CC3351667C315A4A75 /* Colours.xcconfig */,
+				E98418922E4667754B924CB8F67BB0C7 /* Colours-dummy.m */,
+				9EB824C1ECDA0ACAF753A9117737AEC9 /* Colours-prefix.pch */,
+				8D17999E4F5C4D8CCAE4DB7D4CCA51F4 /* Colours-umbrella.h */,
+				D7F7745DF4E94DC43850DAC4E9577DAA /* Info.plist */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/Colours";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		3663C8DC5CCDE2516AEF5D15469CED8C /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7578D046FBB5216C9109E9FAF6CDA266 /* Colours-umbrella.h in Headers */,
+				ADAEFEC0090FB5B2C4C61234879AF1E5 /* Colours.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		51609AC055E11DAD43BECC95B9909072 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				893F1ED31544FF86D390717B398C23DD /* Pods-NotiUPIICSA-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8036321EF915A9C2CE5DF883CCAC195A /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				67F8801C49F00B5497DC3FC7E8A6AA5A /* Pods-NotiUPIICSAUITests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8F522C0522F6102E735FC7B74623D435 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				62B449845871F8DA880D40BE4935EC56 /* KYDrawerController-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CEB98BA49D6A9E6165D9E75564279AD7 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F0244963F489DD57BD18CB7E1525B895 /* Pods-NotiUPIICSATests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		0DD46A73504A5AB702E3E2363B420D70 /* Pods-NotiUPIICSA */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A64C47B000A5BAFD16E8748186345BA5 /* Build configuration list for PBXNativeTarget "Pods-NotiUPIICSA" */;
+			buildPhases = (
+				95CF4F07D468B95B7A8B1BA9C24D616F /* Sources */,
+				4668773A3D0979A244F54778BB01A6ED /* Frameworks */,
+				51609AC055E11DAD43BECC95B9909072 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4FF1334CF8F908E3CD8FA3FA3DDFB7C4 /* PBXTargetDependency */,
+				56F6C6A8F1EBE91E225A9DB249332FC0 /* PBXTargetDependency */,
+			);
+			name = "Pods-NotiUPIICSA";
+			productName = "Pods-NotiUPIICSA";
+			productReference = 1C128D18035489C71148CDFF5BE53BCC /* Pods_NotiUPIICSA.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		67C6D07B5D9C87D96431ED1579800196 /* Pods-NotiUPIICSATests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5E99EE0D2E1C568C5B5DBDC3A7916B5B /* Build configuration list for PBXNativeTarget "Pods-NotiUPIICSATests" */;
+			buildPhases = (
+				A653427E18CFAB2F20A9279A905DD635 /* Sources */,
+				087E8FD9312E4A8308DE15D74246256A /* Frameworks */,
+				CEB98BA49D6A9E6165D9E75564279AD7 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-NotiUPIICSATests";
+			productName = "Pods-NotiUPIICSATests";
+			productReference = 9E321DB487D6F03915EF48D1FEA61A6A /* Pods_NotiUPIICSATests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		7AF8670FDECF80EFCAA3D04318C4B4D1 /* KYDrawerController */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 235787AAA4D655650FA93DB4FB2D308A /* Build configuration list for PBXNativeTarget "KYDrawerController" */;
+			buildPhases = (
+				1BA042EDEFD683F56F2F5063EC1B98EB /* Sources */,
+				9FB1EF2F8A9886B7F0713F557C0356DF /* Frameworks */,
+				8F522C0522F6102E735FC7B74623D435 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = KYDrawerController;
+			productName = KYDrawerController;
+			productReference = 302816BA0B197932C46939BB814BCF5D /* KYDrawerController.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		B638F6D64AEF06510D7E12C7A8F9B8B1 /* Pods-NotiUPIICSAUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A7C0F0B68AF7CE149EA0A997746EE85C /* Build configuration list for PBXNativeTarget "Pods-NotiUPIICSAUITests" */;
+			buildPhases = (
+				9A0A30C0F82DC379E6328FD342616EF5 /* Sources */,
+				18522288C38F77972963048E913D7BB1 /* Frameworks */,
+				8036321EF915A9C2CE5DF883CCAC195A /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-NotiUPIICSAUITests";
+			productName = "Pods-NotiUPIICSAUITests";
+			productReference = 13B519257C0F96D5154F12D2FB2CCA7B /* Pods_NotiUPIICSAUITests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		CFD50968990BC3BDFBD7326EEA9B3CA1 /* Colours */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 228AE24F7A7961EA3D66136865BD184E /* Build configuration list for PBXNativeTarget "Colours" */;
+			buildPhases = (
+				31576C042E8C317BC6F2C2472597B3A4 /* Sources */,
+				6E29ADF9CBB481BF8171B19DD0A72126 /* Frameworks */,
+				3663C8DC5CCDE2516AEF5D15469CED8C /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Colours;
+			productName = Colours;
+			productReference = 314502E19983C90F7753E467736E1829 /* Colours.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 9B9A308337604AC24517468245353C43 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CFD50968990BC3BDFBD7326EEA9B3CA1 /* Colours */,
+				7AF8670FDECF80EFCAA3D04318C4B4D1 /* KYDrawerController */,
+				0DD46A73504A5AB702E3E2363B420D70 /* Pods-NotiUPIICSA */,
+				67C6D07B5D9C87D96431ED1579800196 /* Pods-NotiUPIICSATests */,
+				B638F6D64AEF06510D7E12C7A8F9B8B1 /* Pods-NotiUPIICSAUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1BA042EDEFD683F56F2F5063EC1B98EB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5FC40F18DBFFCACF3FA032B58571B781 /* KYDrawerController-dummy.m in Sources */,
+				74EBEC8F9277C0056FF08F806E75EB4F /* KYDrawerController.swift in Sources */,
+				FE020C0F86B9EBDE87399EC0136682FE /* KYEmbedDrawerControllerSegue.swift in Sources */,
+				05ED5B55D8AAD30623AEB9B36430D576 /* KYEmbedMainControllerSegue.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		31576C042E8C317BC6F2C2472597B3A4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				068CE93600DFC3FCCDF252C8E1043593 /* Colours-dummy.m in Sources */,
+				900D49F13DD20C413147CE312844C62B /* Colours.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		95CF4F07D468B95B7A8B1BA9C24D616F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				497BAEED81F1B3F4C2335BBCD2FDF434 /* Pods-NotiUPIICSA-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9A0A30C0F82DC379E6328FD342616EF5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4311B2910E702DB68FB9E13E1393FCFD /* Pods-NotiUPIICSAUITests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A653427E18CFAB2F20A9279A905DD635 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E9833FF7F6CD3033579AC0DF48D0159F /* Pods-NotiUPIICSATests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4FF1334CF8F908E3CD8FA3FA3DDFB7C4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Colours;
+			target = CFD50968990BC3BDFBD7326EEA9B3CA1 /* Colours */;
+			targetProxy = 5AC0B1D45EE52430523C2CAB65770D6F /* PBXContainerItemProxy */;
+		};
+		56F6C6A8F1EBE91E225A9DB249332FC0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = KYDrawerController;
+			target = 7AF8670FDECF80EFCAA3D04318C4B4D1 /* KYDrawerController */;
+			targetProxy = CB0DD435F90ACE0F6A32D2C00826CFB1 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		2ED1B1918DAD30CE528665CF32262D95 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 90B42B5A61C873CC3351667C315A4A75 /* Colours.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/Colours/Colours-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Colours/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Colours/Colours.modulemap";
+				PRODUCT_NAME = Colours;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		37F8F4E6AF39ED0EE9E4C67AA83E6BCC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E2E1837E02ACB42D6C32CD7F4F7CDD87 /* KYDrawerController.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/KYDrawerController/KYDrawerController-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/KYDrawerController/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/KYDrawerController/KYDrawerController.modulemap";
+				PRODUCT_NAME = KYDrawerController;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		39C5BC78A31CDE101068C530CAC7FA0F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		4F7ECABFC2509188AB825FF9E1011F46 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BF9C15786248B2B6B317A00357FCEABD /* Pods-NotiUPIICSA.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-NotiUPIICSA/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-NotiUPIICSA/Pods-NotiUPIICSA.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_NotiUPIICSA;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		595E2171D69525B711C308D3D2822D90 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3E9F76CE5D7FC9000ED7B4772000B397 /* Pods-NotiUPIICSAUITests.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-NotiUPIICSAUITests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-NotiUPIICSAUITests/Pods-NotiUPIICSAUITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_NotiUPIICSAUITests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		597E5727AC2B4EA64C65F54CD4CEFDDA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 732FA33C28756C17056227EA5F0B41D0 /* Pods-NotiUPIICSATests.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-NotiUPIICSATests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-NotiUPIICSATests/Pods-NotiUPIICSATests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_NotiUPIICSATests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		6A2661A7199D458B0E6D41D161006CB3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 90B42B5A61C873CC3351667C315A4A75 /* Colours.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/Colours/Colours-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Colours/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Colours/Colours.modulemap";
+				PRODUCT_NAME = Colours;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		7FECEABDD8DBDE01B9DE1D71CFC5EA7E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CF2FF6FE89F45089D11DFB839CE361DA /* Pods-NotiUPIICSAUITests.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-NotiUPIICSAUITests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-NotiUPIICSAUITests/Pods-NotiUPIICSAUITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_NotiUPIICSAUITests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		89C8BB24E37B25BAEEB8FBA01EE05DAF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		934A47D66FD96D20DC3B25DE6751012F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7884CDAFDF5F75E15D8DB5A6652D2F62 /* Pods-NotiUPIICSATests.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-NotiUPIICSATests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-NotiUPIICSATests/Pods-NotiUPIICSATests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_NotiUPIICSATests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		EADFEDAB3C6EF60A9E8C314B94786237 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E2E1837E02ACB42D6C32CD7F4F7CDD87 /* KYDrawerController.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/KYDrawerController/KYDrawerController-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/KYDrawerController/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/KYDrawerController/KYDrawerController.modulemap";
+				PRODUCT_NAME = KYDrawerController;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		FD7A05C17988A93CA7E43F598E372B9A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B06B4D0A281D83D32BFDE08C3425B5FD /* Pods-NotiUPIICSA.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-NotiUPIICSA/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-NotiUPIICSA/Pods-NotiUPIICSA.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_NotiUPIICSA;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		228AE24F7A7961EA3D66136865BD184E /* Build configuration list for PBXNativeTarget "Colours" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6A2661A7199D458B0E6D41D161006CB3 /* Debug */,
+				2ED1B1918DAD30CE528665CF32262D95 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		235787AAA4D655650FA93DB4FB2D308A /* Build configuration list for PBXNativeTarget "KYDrawerController" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				37F8F4E6AF39ED0EE9E4C67AA83E6BCC /* Debug */,
+				EADFEDAB3C6EF60A9E8C314B94786237 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				39C5BC78A31CDE101068C530CAC7FA0F /* Debug */,
+				89C8BB24E37B25BAEEB8FBA01EE05DAF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5E99EE0D2E1C568C5B5DBDC3A7916B5B /* Build configuration list for PBXNativeTarget "Pods-NotiUPIICSATests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				597E5727AC2B4EA64C65F54CD4CEFDDA /* Debug */,
+				934A47D66FD96D20DC3B25DE6751012F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A64C47B000A5BAFD16E8748186345BA5 /* Build configuration list for PBXNativeTarget "Pods-NotiUPIICSA" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FD7A05C17988A93CA7E43F598E372B9A /* Debug */,
+				4F7ECABFC2509188AB825FF9E1011F46 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A7C0F0B68AF7CE149EA0A997746EE85C /* Build configuration list for PBXNativeTarget "Pods-NotiUPIICSAUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7FECEABDD8DBDE01B9DE1D71CFC5EA7E /* Debug */,
+				595E2171D69525B711C308D3D2822D90 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

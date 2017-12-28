@@ -1,0 +1,6 @@
+framework module Pods_NotiUPIICSATests {
+  umbrella header "Pods-NotiUPIICSATests-umbrella.h"
+
+  export *
+  module * { export * }
+}
